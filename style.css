@@ -1,0 +1,46 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6em;
+}
+
+/*classes*/
+
+.colonne-gauche{
+    width: 40%;
+}
+
+.colonne-droite{
+    width: 60%;
+}
+
+
+/*display*/
+
+section{
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+section article div.colonne-gauche{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    margin: 50px;
+}
+div img{
+   width: 30%;
+   height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    margin-top: 50px;
+    width: 40%;
+}
